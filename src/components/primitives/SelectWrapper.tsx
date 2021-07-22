@@ -19,7 +19,7 @@ const SelectWrapperBase: FC<SelectWrapperProps> = ({
   );
 };
 
-const Select = styled(SelectWrapperBase)<SelectWrapperProps>`
+const SelectWrapper = styled(SelectWrapperBase)<SelectWrapperProps>`
   flex-grow: 1;
 
   display: inline-flex;
@@ -32,4 +32,4 @@ const Select = styled(SelectWrapperBase)<SelectWrapperProps>`
   }
 `;
 
-export default Select;
+export default SelectWrapper;
