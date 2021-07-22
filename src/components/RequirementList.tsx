@@ -2,9 +2,9 @@ import { FC } from "react";
 import Requirement from "../types/Requirement";
 import Card from "./primitives/Card";
 import Center from "./primitives/Center";
-import Grid from "./primitives/Grid";
-import { Unordered } from "./primitives/List";
-import ListItem from "./primitives/ListItem";
+// import Grid from "./primitives/Grid";
+// import { Unordered } from "./primitives/List";
+// import ListItem from "./primitives/ListItem";
 import Padding from "./primitives/Padding";
 
 interface RequirementListProps {
